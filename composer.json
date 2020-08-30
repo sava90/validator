@@ -1,0 +1,20 @@
+{
+  "name": "sava90/validator",
+  "description": "Validator Form",
+  "authors": [
+    {
+      "name": "Vitaliy Savchuk",
+      "email": "savchuk.vitaliy90@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Field\\": "Field",
+      "Form\\": "Form",
+      "Validator\\": "Validator"
+    }
+  }
+}
